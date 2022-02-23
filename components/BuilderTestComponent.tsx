@@ -1,6 +1,6 @@
 import { Builder } from '@builder.io/react'
 
-export const BuilderTestComponent = (props) => (
+export const BuilderTestComponent = (props: any) => (
   <h1
     className="bg-blue-500 max-w-lg text-center mx-auto p-4 mb-4"
     style={{ color: props.color }}
